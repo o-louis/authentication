@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+body{
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(10, 25, 47);
+}
+
+a, .subtitle {
+    color: rgb(136, 146, 176) !important;
+}
+
+a:hover {
+    color: rgb(100, 255, 218) !important;
+}
+
+.navbar-brand {
+    color: rgb(204, 214, 246) !important;
+    font-weight: bold !important;
+    font-weight: 500 !important;
+}
+
+.nav-link {
+    border: 1px solid rgb(136, 146, 176);
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    border: 1px solid rgb(100, 255, 218);
+    background-color: rgba(100, 255, 218, 0.07);
+}
+
+.welcome { font-weight: 600;
+    color: rgb(204, 214, 246); 
+}
+
+.dotdotdot {
+    color: rgb(100, 255, 218);
+}
+
+.bi-chat-quote {
+    vertical-align: top;
+}
+
+.status-user {
+    color: rgb(100, 255, 218);
+    font-weight: 400;
+}
+
+.navbar-auth
+{
+    box-shadow: 0 3px 4px rgba(0,0,0,.10);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+.navbar-brand:hover {
+    color: rgb(136, 146, 176);
+}
+
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
